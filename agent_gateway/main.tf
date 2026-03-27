@@ -1,4 +1,4 @@
-module "agent_gateway" {
+module "agent_gateway-1" {
   source              = "github.com/GoogleCloudPlatform/terraform-google-agent-gateway?ref=v0.1.0"
 
   project_id   = var.tenant_project_number
